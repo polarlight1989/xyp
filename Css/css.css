@@ -1,0 +1,37 @@
+body{ padding:0; margin:0;}
+.clear{ clear:both;}
+a {blr:expression(this.onFocus=this.blur()); border:none;}
+a:focus{ outline:0; }
+input:focus{ outline:0; }
+
+.logoBox{ text-align:center; color:#ffac00;  font-family: "Microsoft YaHei","微软雅黑","SimHei","黑体"; font-size: 40px;  font-weight:bold; -webkit-text-shadow: 1px 2px 1px #333;-moz-text-shadow: 1px 2px 1px #333;text-shadow: 1px 2px 1px #333;}
+
+.topBox{ height:89px; width:100%; background:url(../images/TopBg.png) 0 0 repeat-x;}
+table.gridtable {width:100%;border-width: 1px;border-collapse: collapse;}
+table.gridtable td {border-width: 1px;padding:0;}
+.Righttop{height:22px; width:97.5%; line-height:22px; background:url(../images/TopBg.png) 0px -91px no-repeat; padding-left:27px; color:#fed7ad; font-size:12px; float:left; }
+
+.Rightbottom{height:29px; margin-top:7px;width:779px;position:relative;*margin-top:7px;}
+.Rightbottom .left .czBtn,.Rightbottom .left .czBtnOn{ width:140px; text-align:center; height:30px; float:left; background:url(../images/TopBg.png) no-repeat; display:block; line-height:30px; font-size:14px; font-weight:bold; color:#fff5d7; padding-right:10px; text-decoration:none; margin-right:10px; cursor:pointer;}
+.Rightbottom .left .czBtn{ background-position:0 -115px;}
+.Rightbottom .left .czBtnOn{background-position:-150px -115px;}
+
+.Rightbottom .left{ width:150px; height:30px; float:left; margin-right:10px!important;*margin-right:0px;}
+.Rightbottom .left ul{ list-style:none; float:left; padding:0; margin:0;}
+.Rightbottom .left li{ width:150x; height:30px; float:left;}
+
+.Rightbottom .right{ float:left;}
+.Rightbottom .right ul{ list-style:none; float:left; padding:0; margin:0;}
+.Rightbottom .right li{ width:69px; height:30px; float:left;}
+.navBtn,.onBtn{ width:69px; height:30px; float:left; background:url(../images/TopBg.png) no-repeat; display:block; color:#fff5d7; text-align:center; line-height:30px; text-decoration:none; font-size:12px; cursor:pointer; }
+.navBtn{ background-position:0 -145px;}
+.navBtn:hover,.onBtn{ background-position:-69px -145px; font-weight:bold;}
+
+
+.userBox{ width:231px; height:28px; float:left;line-height:28px; font-size:12px; font-weight:bold; text-align:center;padding-top:2px; background:url(../images/TopBg.png) 0 -205px no-repeat; margin-right:3px; color:#3e1300;}
+.navListBox{float:left; line-height:28px; width:auto; margin-left:2px; padding-top:2px;}
+.navListBox b{ font-weight:normal; color:#cf956d; padding:0 4px; font-size:12px;}
+.navListBox a{ color:#542e16; font-size:12px; text-decoration:none;padding:3px 5px;}
+.navListBox a:hover,.navListBox .onBtn1{ background:#a66d44;padding:3px 5px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px; color:#f8f0d8;}
+
+

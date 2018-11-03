@@ -1,0 +1,348 @@
+@charset "utf-8";
+body {font:normal 100% Arial, Helvetica, sans-serif; padding:0; margin:0;}
+.clear{ clear:both;}
+a {blr:expression(this.onFocus=this.blur()); border:none;}
+a:focus{ outline:0;}
+input,button,select,textarea{outline:none;  -webkit-appearance:none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+textarea{resize:none}
+img{ border:none; padding:0; margin:0;}
+ul{ list-style:none; padding:0; margin:0; display:inline;}
+.f10{ font-size:10px;}
+.yuer{ color:#fff; float:right;font-size:14px;}
+.zhanghu{color:#fff; float:left;font-size:14px;}
+.pm{ padding:0; margin:0;}
+.lan{ color:#0078dd;}
+.hong{ color:#ce1717;}
+.lv{ color:#14ac08;}
+.clear{ clear:both;}
+.none{ border:none!important; padding:0; margin:0;}
+.Loginbg{background:#f4e3db!important;}
+.mb6{ margin-bottom:6px!important;}
+a.lh,a.lh:hover{color:#ce1717; text-decoration:underline;}
+
+.shuoming {
+color:#ce1717;
+font-family:small-caps;
+text-align:center;
+
+}
+.juzhong{
+text-align:center;
+}
+.chakanxiazhumingxi{
+margin-right:10%;
+font-size:20px;
+}
+/*表格*/
+.tableBox{
+ 	background-color:#fff;
+	border:1px #dcd1ca solid;
+	border-collapse:collapse;
+	text-align:center;
+	width:100%;
+}
+.tableBox th{background:#e2d4ca;border-bottom:1px solid #c3b1a4;border-right:1px solid #c3b1a4;border-top:1px solid #ebe1d9; font-size:13px;height:22px;}
+.tableBox td{border:1px solid #dcd1ca;font-size:12px;}
+.tableBox td td{border:0px;font-size:12px;}
+.tdBg{background:#f6f1ee; font-size:12px; font-weight:bold; height:22px;}
+.tableBox a{color:#0078dd!important; text-decoration:underline;}
+.tableBox a:hover{color:#ce1717!important; text-decoration:none;}
+
+/*開獎號碼*/
+.num_00,.num_01,.num_02,.num_03,.num_04,.num_05,.num_06,.num_07,.num_08,.num_09,.num_10,.num_11,.num_12,.num_13,.num_14,.num_15,.num_16,.num_17,.num_18,.num_19,.num_20{width:18px; height:18px;-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; float:left; line-height:18px!important;font-weight:normal; font-size:12px; text-align:center; font-weight:bold;}
+.num_00,.num_01,.num_02,.num_03,.num_04,.num_05,.num_06,.num_07,.num_08,.num_09,.num_10,.num_11,.num_12,.num_13,.num_14,.num_15,.num_16,.num_17,.num_18{color:#000;border:2px solid #0384f1;}
+.num_19,.num_20{color:#cd0d0d;border:2px solid #cd0d0d;}
+
+ .pk_01, .pk_02, .pk_03, .pk_04, .pk_05, .pk_06, .pk_07, .pk_08, .pk_09, .pk_10{width:22px; height:22px; float:left;line-height:22px;color:#000;font-weight:normal; font-size:14px; text-align:center; font-weight:bold; color:#fff;text-shadow:1px 1px #333;}
+.pk_01{ background:#ffff00;}
+.pk_02{ background:#0089ff;}
+.pk_03{ background:#4d4d4d;}
+.pk_04{ background:#ff7300;}
+.pk_05{ background:#81ffff;}
+.pk_06{ background:#5200ff;}
+.pk_07{ background:#e3e3e3;}
+.pk_08{ background:#ff0000;}
+.pk_09{ background:#760000;}
+.pk_10{ background:#28c200;}
+.nc_1,.nc_2,.nc_3,.nc_4,.nc_5,.nc_6,.nc_7,.nc_8,.nc_9,.nc_10,.nc_11,.nc_12,.nc_13,.nc_14,.nc_15,.nc_16,.nc_17,.nc_18,.nc_19,.nc_20{width:25px; height:22px; margin:0 1px; background:url(../images/NcBall.png) no-repeat; float:left;
+}
+
+ 
+
+.nc_1{ background-position:0 0;}
+.nc_2{ background-position:0 -22px;}
+.nc_3{ background-position:0 -44px;}
+.nc_4{ background-position:0 -66px;}
+.nc_5{ background-position:0 -88px;}
+.nc_6{ background-position:0 -110px;}
+.nc_7{ background-position:0 -132px;}
+.nc_8{ background-position:0 -154px;}
+.nc_9{ background-position:0 -176px;}
+.nc_10{ background-position:0 -198px;}
+.nc_11{ background-position:0 -220px;}
+.nc_12{ background-position:0 -242px;}
+.nc_13{ background-position:0 -264px;}
+.nc_14{ background-position:0 -286px;}
+.nc_15{ background-position:0 -308px;}
+.nc_16{ background-position:0 -330px;}
+.nc_17{ background-position:0 -352px;}
+.nc_18{ background-position:0 -374px;}
+.nc_19{ background-position:0 -396px;}
+.nc_20{ background-position:0 -418px;}
+
+.kl8{width:18px; height:18px;-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; float:left; line-height:18px!important;font-weight:normal; font-size:12px; text-align:center; font-weight:bold;color:#000;border:2px solid #5c29ac; margin-bottom:3px;}
+
+/*登錄*/
+.TopPic{width:100%;background:url(../images/Bg.jpg) repeat-x;text-align:right; float:left; padding:0; margin-bottom:-4px;}
+.LoginBox{ width:100%; border-bottom:1px solid #d0d0d0; height:242px; background:#fff; float:left;}
+.LoginBox .box{ width:94%; margin:0 auto;}
+.LoginBox .box li{ width:100%; float:left; height:80px; border-bottom:1px solid #d0d0d0;}
+.LoginBox .box li span{ width:15%; float:left;}
+.LoginBox .box li label{ width:84%; float:left;position:relative; }
+.btn{ width:100%; margin:30px auto 0 auto; background:url(../images/BtnBg.jpg) repeat-x; height:80px;border-radius:40px;-webkit-border-radius:40px;-moz-border-radius:40px; border:none; line-height:80px; text-align:center; color:#fff; font-size:40px; font-weight:bold; -moz-box-shadow: 1px 2px 2px 0px #866460;-webkit-box-shadow: 1px 2px 2px 0px #866460;box-shadow: 1px 2px 2px 0px #866460;}
+.username,.passwork,.number{ width:80px; height:80px; float:left; background:url(../images/icon.png) no-repeat;}
+.username{ background-position:0 0;}
+.passwork{ background-position:0 -80px;}
+.number{ background-position:0 -160px;}
+.text{ width:96%; border:none; line-height:44px; font-size:36px; padding-top:17px; text-align:left; margin-top:3px; color:#919191; background: none}
+	/*文本框提示*/
+	input::-webkit-input-placeholder {
+	color: #919191;
+	-webkit-transition: color.5s;
+	}
+	input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+	color: #919191;
+	-webkit-transition: color.5s;
+	} 
+	*{-webkit-touch-callout: none;-webkit-user-select: none;} 
+    input {-webkit-user-select: auto;}  
+
+/*大廳*/
+.mainBox{margin:6% auto 0 auto;}
+.mainBox li{ width:30%;float:left; text-align:center;font-size:13px; margin-bottom:5%; color:#333; margin-left:2.8%;}
+.mainBox li span{width:100%;float:left;text-align:center;}
+.mainBox a{ color:#333 !important; text-decoration:none;}
+.mainBox a:hover{ color:#b81313 !important;}
+
+/*彈出面板*/
+.panel-content{ margin-top:-20px;}
+.panel-content h3{ background:url(../images/head.png) 5px 15px no-repeat #210b03; padding-left:30px; height:30px; padding-top:14px;border-bottom:1px solid #130601; color:#a8938a; font-size:18px;}
+.panel-content p{ margin-top:-18px;padding-left:10px; height:30px; padding-top:10px;border-bottom:1px solid #250d04;border-top:1px solid #4c2010; color:#a8938a; font-size:14px; background:url(../images/arr.png) 95px 14px no-repeat #431c0e;}
+.panel-content a{ color:#a8938a; text-decoration:none;}
+.panel-content p:hover{ color:#fff;margin-top:-18px;padding-left:10px; height:30px; padding-top:10px;border-bottom:1px solid #250d04;border-top:1px solid #4c2010; color:#fff; font-size:14px; background:url(../images/arr.png) 95px 14px no-repeat #522616;}
+
+/*開獎號碼及提示*/
+.TZtitle{background:#6b250b; height:37px;}
+.JQBox{ height:26px; border-bottom:1px solid #ccc; background:#e9e9e9; padding-top:3px; line-height:22px; padding-left:5px; font-weight:bold; font-size:14px; border-top:1px solid #f2f2f2;}
+.JQBox b{ margin-right:2px;}
+.JQBox1{border-bottom:1px solid #ccc; background:#e9e9e9; padding-top:3px; line-height:22px; padding-left:5px; font-weight:bold; font-size:14px; border-top:1px solid #f2f2f2;}
+.JQBox1 b{ margin-right:2px;}
+
+/*開獎號碼及提示kl8*/
+.JQBoxkl8{ height:48px; border-bottom:1px solid #ccc; background:#e9e9e9; padding-top:3px; line-height:22px; padding-left:5px; font-weight:bold; font-size:14px; border-top:1px solid #f2f2f2;}
+.JQBoxkl8 b{ margin-right:2px;}
+
+
+/*玩法投注面板*/
+.WFbox,.Clbox,.DDbox,.JGbox{ }
+.WFtitle,.CLtitle,.JGtitle{ height:35px;border-bottom:1px solid #ab9687; text-align:center; line-height:35px; font-weight:bold; -moz-box-shadow:0px 2px 4px 0px #999;-webkit-box-shadow:0px 2px 4px 0px #999;box-shadow:0px 2px 4px 0px #999;}
+.WFtitle{border-top:1px solid #ebd6c7;background: -moz-linear-gradient(top,#fde6d6,#e8c9b2);background: linear-gradient(top,#fde6d6,#e8c9b2);background: -webkit-linear-gradient(top,#fde6d6,#e8c9b2);}
+.CLtitle,.JGtitle{background: -moz-linear-gradient(top,#ab7a76,#673731);background: linear-gradient(top,#ab7a76,#673731);background: -webkit-linear-gradient(top,#ab7a76,#673731); color:#fff;}
+.WFtitle .leftBtn,.CLtitle .leftBtn,.JGtitle .leftBtn{ width:50px; height:28px; float:left;-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; margin:2px 0 0 5px;  line-height:28px; font-weight:bold; text-align:center; font-size:14px;background: -moz-linear-gradient(top,#e9e9e9,#c3c3c3);background: linear-gradient(top,#e9e9e9,#c3c3c3);background: -webkit-linear-gradient(top,#e9e9e9,#c3c3c3);border:1px solid #bea797;color:#333;}
+.WFtitle .leftBtn{ -webkit-box-shadow:0 1px 0px 0px #fff0e5; -moz-box-shadow:0 1px 0px 0px #fff0e5;box-shadow:0 1px 0px 0px #fff0e5;}
+.CLtitle .leftBtn,.JGtitle .leftBtn{-webkit-box-shadow:0 1px 0px 0px #caa8a6; -moz-box-shadow:0 1px 0px 0px #caa8a6;box-shadow:0 1px 0px 0px #caa8a6; color:#333;}
+.WFtitle .leftBtn:hover{ color:#ce1717;}
+.CLtitle .leftBtn:hover,.JGtitle .leftBtn:hover{ color:#ce1717;}
+.WFtitle .rightBtn{ width:50px; height:28px; float:right; color:#fff;background: -moz-linear-gradient(top,#f09800,#d65900);background: linear-gradient(top,#f09800,#d65900);background: -webkit-linear-gradient(top,#f09800,#d65900);-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; margin:2px 5px 0 0px; border:1px solid #aa4500; -moz-box-shadow:0 1px 0px 0px #fff0e5;-webkit-box-shadow:0 1px 0px 0px #fff0e5;box-shadow:0 1px 0px 0px #fff0e5; line-height:28px; font-weight:bold; text-align:center; font-size:14px;}
+.WFbox .box,.WFbox .box1{ padding:0; margin-top:8px;}
+.WFtitle .rightBtn:hover{ color:#ffff00;}
+.WFbox .box li{ width:110px;float:left; margin:0px 0 2px 8px;}
+.WFbox .box li .liBox{width:110px; height:34px;float:left; line-height:34px; text-align:center;  border:1px solid #dcdcdc;background: -moz-linear-gradient(top,#f8f8f8,#eaeaea);background: linear-gradient(top,#f8f8f8,#eaeaea);background: -webkit-linear-gradient(top,#f8f8f8,#eaeaea);-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-shadow:0px 2px 3px 0px #dfdfdf;-webkit-box-shadow:0px 2px 3px 0px #dfdfdf;box-shadow:0px 2px 3px 0px #dfdfdf; position:relative;}
+.w120{ width:130px!important;}
+.WFbox .box li span{ float:left; line-height:22px; margin-left:3px; font-weight:bold;font-size:14px; margin-top:6px;}
+.WFbox .box li label{ float:right; line-height:34px; margin-right:3px; font-weight:bold;color:#ce1717; font-size:14px;}
+.WFbox .box li p{ width:110px; height:20px; line-height:20px; text-align:center; float:left; font-size:12px; padding:0; margin:0; color:#888;}
+.WFbox .box1 li{ width:54px;float:left; margin:0px 0 2px 8px;}
+.WFbox .box1 li .liBox{width:54px; height:44px;float:left; line-height:44px; text-align:center;  border:1px solid #dcdcdc;background: -moz-linear-gradient(top,#f8f8f8,#eaeaea);background: linear-gradient(top,#f8f8f8,#eaeaea);background: -webkit-linear-gradient(top,#f8f8f8,#eaeaea);-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-shadow:0px 2px 3px 0px #dfdfdf;-webkit-box-shadow:0px 2px 3px 0px #dfdfdf;box-shadow:0px 2px 3px 0px #dfdfdf; position:relative;}
+.WFbox .box1 li label{ display:none;}
+.WFbox .box1 li span{ float:left; line-height:22px; margin-left:16px; font-weight:bold;font-size:14px; margin-top:11px;}
+.WFbox .box .Btnhover,.WFbox .box1 .Btnhover{ background:#ffff00;}
+.WFbox .box .on,.WFbox .box1 .on{ background:#ffff00!important;}
+.WFbox .box .on:after,.WFbox .box1 .on:after {
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    right: 3px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e27700;
+    background: none repeat scroll 0% 0% #FFF;
+    line-height: 14px;
+    color: #c06500;
+    font-size: 14px;
+    text-align: center;
+    text-indent: -1px;
+    content: "√";
+    border-radius: 50%;
+	-moz-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+	text-align:center;
+}
+
+/*兩面長龍*/
+.Clbox .box,.DDbox .box,.JGbox .box{ padding:0; margin:0;}
+.Clbox .box li{ width:149px;line-height:26px; text-align:left; padding:0 5px; border-bottom:1px solid #d6b3af;border-right:1px solid #d6b3af; display:inline; float:left; font-size:14px;}
+
+/*近期開獎結果*/
+.JGbox .box li{ width:149px;line-height:30px; text-align:left;border-bottom:1px solid #d6b3af;border-right:1px solid #d6b3af; display:inline; float:left; font-size:14px;}
+.JGbox .box li b{border-right:1px solid #d6b3af;line-height:30px; }
+.ww20{ width:20px;}
+.ww40{ width:40px;}
+.ww69{ width:69px;}
+.oh {
+    overflow: hidden;
+}
+.tc{
+    text-align: center;
+}
+.JGbox .box dd {
+    float: left;
+    height: 30px;
+    padding: 0px;
+    border-right: 1px solid #d6b3af;
+	border-bottom: 1px solid #d6b3af;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    font-size: 13px;
+	margin:0;
+	line-height:30px;
+}
+.dib {
+    display: inline-block;
+}
+.JGbox .box dd span:nth-child(1) {
+    width: 28px;
+    background: none repeat scroll 0% 0% #e5dad4;
+}
+.JGbox .box dd span:nth-child(2) {
+    width: 72px;
+	padding-top:4px;
+}
+.JGbox .box dd span:nth-child(3) {
+    width: 13px;
+}
+.JGbox .box dd span:nth-child(4) {
+    width: 30px;
+}
+.JGbox .box dd span {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    float: left;
+    padding: 0px;
+}
+.JGbox .box dd span {
+    padding-right: 4px;
+}
+
+/*球號排行*/
+.ballNav{background:#e5dad4!important;width:100%!important; margin-bottom:1px;}
+.ballNav b{ width:25%; height:30px; line-height:30px; text-align:center; float:left;background:#e5dad4;border-bottom:1px solid #d4c5bc; font-size:13px;/*border-right:1px solid #d4c5bc;*/}
+.ballNav .on{background:#be9f8e;border-bottom:1px solid #b0a096;/*border-right:1px solid #b0a096;*/}
+.paihang {
+    margin:0px;
+	text-align:center;	
+	border-bottom:1px solid #d3c3b7;
+}
+.paihang dd {
+    border-right: 1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	font-size:13px;
+}
+.paihang p{ padding:0; margin:0; border:0 none; height:24px; line-height:24px;}
+.paihang dd {
+    display: table-cell;
+    width: 1000px;
+    background: none repeat scroll 0% 0% #F4F4F4;
+    line-height: 24px;
+}
+
+/*確認訂單*/
+.DDtitle{height:35px;border-top:1px solid #ebd6c7;border-bottom:1px solid #ab9687;line-height:35px; font-weight:bold; -moz-box-shadow:0px 2px 4px 0px #999;-webkit-box-shadow:0px 2px 4px 0px #999;box-shadow:0px 2px 4px 0px #999;background: -moz-linear-gradient(top,#fde6d6,#e8c9b2);background: linear-gradient(top,#fde6d6,#e8c9b2);background: -webkit-linear-gradient(top,#fde6d6,#e8c9b2); padding-left:7px;}
+.DDtitle .QXbtn{width:50px; height:28px; float:right;-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; margin:2px 10px 0 0px;  line-height:28px; font-weight:bold; text-align:center; font-size:14px;background: -moz-linear-gradient(top,#e9e9e9,#c3c3c3);background: linear-gradient(top,#e9e9e9,#c3c3c3);background: -webkit-linear-gradient(top,#e9e9e9,#c3c3c3);border:1px solid #bea797;-webkit-box-shadow:0 1px 0px 0px #fff0e5; -moz-box-shadow:0 1px 0px 0px #fff0e5;box-shadow:0 1px 0px 0px #fff0e5; color:#333;}
+.DDtitle .QDbtn{width:50px; height:28px; float:right; color:#fff;background: -moz-linear-gradient(top,#f09800,#d65900);background: linear-gradient(top,#f09800,#d65900);background: -webkit-linear-gradient(top,#f09800,#d65900);-moz-border-radius: 18px;-webkit-border-radius: 18px;border-radius:18px; margin:2px 5px 0 0px; border:1px solid #aa4500; -moz-box-shadow:0 1px 0px 0px #fff0e5;-webkit-box-shadow:0 1px 0px 0px #fff0e5;box-shadow:0 1px 0px 0px #fff0e5; line-height:28px; font-weight:bold; text-align:center; font-size:14px;color:#fff;}
+.DDtitle .QXbtn:hover{ color:#ce1717;}
+.DDtitle .QDbtn:hover{ color:#ffff00;}
+.DDbox .box li{ border-bottom:1px solid #dcd1ca;background:#f6f1ee; width:100%; float:left;padding:0; margin:0;}
+.liBg{background:#e9e9e9!important;}
+.deleLing{text-decoration:line-through!important;font-style:oblique; color:#787878!important;}
+.DDbox .box b{height:30px; line-height:30px;background:#e2d4ca; text-align:center; font-weight:bold; margin:0; float:left; font-size:14px; border-bottom:1px solid #ab9687;}
+.DDbox .box p{text-align:center;margin:0; float:left; font-size:12px; height:32px; padding-top:3px;  vertical-align:middle!important; }
+.w1{ width:30%;}
+.w2{ width:20%;}
+.w3{ width:25%;}
+.w4{ width:12%;}
+.w5{ width:13%;}
+
+	.DDbox .box .success,.DDbox .box .error,.DDbox .box .warning{ width:30px;width:70%; margin:5% auto; padding:10px; font-weight:bold; padding-left:50px; font-size:18px;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius:10px; }
+	.DDbox .box .success{ background:url(../images/success.gif) 10px 6px no-repeat #effeb9; color:#6e8d00; border:1px solid #98c603;}
+	.DDbox .box .success a{ background:url(../images/success.gif) 10px 6px no-repeat #effeb9; color:#6e8d00; border:1px solid #98c603;}
+	.DDbox .box .error{ background:url(../images/error.gif) 10px 6px no-repeat #fccac1; color:#b63f29;border:1px solid #eb5439;}
+	.DDbox .box .warning{ background:url(../images/warning.gif) 10px 6px no-repeat #ffe9ad; color:#8a670a;border:1px solid #fab418;}
+
+/*玩法規則*/
+.contentNode .box{float:left; padding:0 5px; margin:10px 0; font-size:13px;}
+.contentNode .box h1{ font-size:20px; margin:0; padding:0; width:100%;font-size:14px!important;}
+.contentNode .box b{ font-weight:normal;}
+.contentNode .box h1{padding:0; float:left; margin:0px 0 5px 0; font-size:16px;}
+.contentNode .box p{padding:0; float:left;font-weight:bold; margin:0 0 7px 0;}
+.contentNode .box ul{ padding:0; margin:0; float:left; list-style:none;width:100%;}
+.contentNode .box li{float:left; width:100%; margin:0; padding:0; display:inline; margin-bottom:7px; line-height:18px;}
+.contentNode .box .line{ border-bottom:1px dashed #cdcdcd; padding-bottom:7px;width:100%;}
+.contentNode .box li label{ float:left; width:6%; font-weight:bold; text-align:right;}
+.contentNode .box li span{ float:left; width:93%; padding-left:4px;}
+
+/*歷史開獎*/
+.KJbox .box{ padding:0; margin:0;}
+.KJbox .box li{ width:100%; float:left;border-bottom:1px solid #dcd1ca;background:#f6f1ee;}
+.KJbox .box li span{ margin-right:1px; text-align:center;}
+.KJbox .box b{height:30px;line-height:30px;background:#e2d4ca; text-align:center; font-weight:bold; margin:0; float:left; font-size:14px; border-bottom:1px solid #ab9687;}
+.KJbox .box p{text-align:center;margin:0; float:left; font-size:12px; padding:3px 0; line-height:22px; }
+.w20{ width:24%;}
+.w30{ width:30%;}
+.w40{ width:40%;}
+.w50{ width:50%;}
+.w60{ width:60%;}
+.w70{ width:70%;}
+.w80{ width:76%;}
+
+/*修改密碼*/
+.passBox{ margin-top:7%;border-bottom:1px solid #d0d0d0;border-top:1px solid #dcd1ca;background:#f6f1ee;}
+.passBox .box{ width:94%; margin:0 auto;}
+.passBox .box li{ width:100%; float:left; height:35px; padding-top:6px; line-height:28px; padding-bottom:8px;border-bottom:1px solid #dcd1ca;}
+.passBox .box li span{ width:30%; float:left; text-align:right; padding-top:5px; font-weight:bold;}
+.passBox .box li label{ width:70%; float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

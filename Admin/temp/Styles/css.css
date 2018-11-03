@@ -1,0 +1,56 @@
+body{ padding:0; margin:0;}
+.topBox{ height:91px; width:100%; background:url(../images/BoxBg.png) 0 0 repeat-x;}
+.clear{ clear:both;}
+a {blr:expression(this.onFocus=this.blur()); border:none;}
+a:focus{ outline:0; }
+input:focus{ outline:0; }
+/*¹«ÓÃ*/
+.rgb_bfffc4{ color:#bfffc4!important;}
+
+.logoBox{ font-size:39px; text-align:center; color:#f7ffdc; font-weight:900; font-family:"Microsoft YaHei";-webkit-text-shadow: 1px 2px 1px #407b02;-moz-text-shadow: 1px 2px 1px #407b02;text-shadow: 1px 2px 1px #407b02;}
+.topLogo{ width:207px; height:67px; float:left; background:url(../images/logo.gif) no-repeat;}
+.Righttop{height:22px; width:98%; line-height:21px; background:url(../images/BoxBg.png) 0px -91px no-repeat; padding-left:20px; color:#fff; font-size:12px; float:left; }
+.Righttop a{ color:#fff; text-decoration:none;}
+.Righttop a:hover{ color:#ffff00; text-decoration:underline;}
+
+.Rightbottom{height:31px;width:810px;position:relative; margin-top:6px;}
+.Rightbottom .left .czBtn,.Rightbottom .left .czBtnOn{ width:131px; text-align:center; height:31px; float:left; background:url(../images/BoxBg.png) no-repeat; display:block; line-height:31px; font-size:14px; font-weight:bold; color:#f3fdd5; padding-right:20px; text-decoration:none; margin-right:10px; cursor:pointer;}
+.Rightbottom .left .czBtn{ background-position:0 -113px;}
+.Rightbottom .left .czBtnOn{background-position:-151px -113px;}
+
+.Rightbottom .left{ width:151px; height:31px; float:left; margin-right:20px!important;*margin-right:0px;}
+.Rightbottom .left ul{ list-style:none; float:left; padding:0; margin:0;}
+.Rightbottom .left li{ width:131px; height:31px; float:left;}
+
+.Rightbottom .right{height:31px; width:auto;float:left; padding:0; margin:0;}
+.Rightbottom .right ul{ list-style:none; float:left; padding:0; margin:0;}
+.Rightbottom .right li{ width:71px; height:31px; float:left;}
+
+.navBtn1,.navBtn1_1,.navBtn2,.navBtn2_1,.navBtn3,.navBtn3_1{ width:71px; height:31px; float:left; background:url(../images/BoxBg.png) no-repeat; display:block; color:#f3fdd5; text-align:center; line-height:29px; text-decoration:none; font-size:12px; cursor:pointer; }
+.navBtn1{ background-position:-142px -144px;}
+.navBtn1:hover,.navBtn1_1{ background-position:-213px -144px; font-weight:bold;}
+.navBtn2{ background-position:0 -144px;}
+.navBtn2:hover,.navBtn2_1{ background-position:-71px -144px; font-weight:bold;}
+.navBtn3{ background-position:0 -175px;}
+.navBtn3:hover,.navBtn3_1{ background-position:-71px -175px; font-weight:bold;}
+
+
+
+.userBox{ height:28px; width:185px; width:auto!important; min-width:185px;*width:185px;text-align:center; float:left; background:url(../images/BoxBg.png) 0 -239px no-repeat; line-height:28px; font-size:12px;color:#acff00; padding:0 5px; font-family:Verdana;}
+.userBox span{ background:url(../images/BoxBg.png) -6px -124px no-repeat; width:24px; height:30px; float:left;}
+.userBox b{ font-weight:normal; color:#547b39; padding:0 7px;}
+.navListBox{ margin-left:5px; float:left; height:28px;line-height:28px; width:auto;}
+.navListBox b{ font-weight:normal; color:#397311; padding:0 1px; font-size:12px;}
+.navListBox a{ color:#f3fdd5; font-size:12px; text-decoration:none;padding:3px 5px;*padding:3px 5px 2px 5px;}
+.navListBox a:hover,.navListBox .onBtn{ background:#51842d;padding:3px 5px;*padding:3px 5px 2px 5px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px; color:#fff;}
+.onBtn{ font-weight:bold;}
+
+table.gridtable { 
+	width:100%;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+table.gridtable td {
+	border-width: 1px;		
+	padding:0;
+	}

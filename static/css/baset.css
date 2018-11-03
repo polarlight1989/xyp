@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, "宋体",Arial, Helvetica, Verdana, Geneva,  sans-serif;
+}
+
+.margin14 {margin-left: 15px;}
+.t1_textalai {
+    background-color: #FFFFFF;
+    height: 18px;
+    line-height: 17px;
+    text-indent: 2px;	
+             }
+.t1_textalai:hover {
+    background-color: #FFFFA2;
+    height: 18px;
+    line-height: 17px;
+    text-indent: 2px;	
+             }			 
+.conter2alai {
+	width:35%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter2alai tr td {
+	border:1px inactivecaption solid;
+	height:27px;
+	border-color:#b0c47a;
+}
+.conter1alai {
+	width:35%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter1alai tr td {
+	border:1px inactivecaption solid;
+	height:28px;
+	border-color:#b0c47a;
+}
+.conter22alai {
+	width:30%;
+	margin-top:5px;
+	border:1px inactivecaption solid;
+	border-collapse:collapse;
+	border-color:#b0c47a;
+}
+.conter22alai tr td {
+	border:1px inactivecaption solid;
+	height:27px;
+	border-color:#b0c47a;
+}

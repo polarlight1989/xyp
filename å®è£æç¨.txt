@@ -1,0 +1,62 @@
+服务器环境需求：IIS+MYSQL
+⑴百度搜索下载：“php环境一键安装包(zkeysphp)”运行安装架设即可，最好选择比较新版的安装包下载！
+⑵必须安装NET2.0，否则运行不了采集器，百度搜索：“NET Framework v2.0”
+⑶编辑文件请使用编译器来编辑，否则会出错。百度搜索：“editplus中文版”
+
+
+
+
+
+/采集/config.ini      为程序开奖采集器设置文件
+/caiji33/get.php        为采集器连接文件
+/caiji33/api.php        为采集器采集文件
+
+
+
+修改数据库连接文件：/classed/Debe.php
+
+         //网站logo名称：
+         $logo="金源";
+
+        //数据库地址
+	private $dbHost = 'localhost';
+	
+	//MySql数据库用户名
+	private $dbUser = 'root';
+	
+	 //MySql数据库密码 
+	private $dbPwd = 'zkeys';
+	
+	//MySql数据库名称
+	private $dbName = '1188a';	
+
+
+
+修改域名端口连接文件：/config/ConFinig.php
+
+//前臺域名
+//前臺端口     会员登陆
+
+//後臺域名
+//後臺端口     后台登陆
+
+修改对应的会员后台网址与端口即可
+
+
+
+管理号：admin999   密码：aa112233
+
+
+
+修改北京赛车和快乐8期数
+get.php
+$lastNum = $NowQs - 310173-179*7-179*8;
+改为$lastNum = $NowQs - 308920-179*7-179*8;
+$lastNum = $NowQs - 515600-179*7-179*8;
+改为$lastNum = $NowQs - 514898-179*7-179*8;
+
+functioned\parameter.php
+$baseNumber = 310173-179*7-179*8 + (strtotime($day) - strtotime('2012-08-15')) / 86400 * 179;
+改为$baseNumber = 308920-179*7-179*8 + (strtotime($day) - strtotime('2012-08-15')) / 86400 * 179;
+$baseNumber = 515600-179*15 + (strtotime($insertDate) - strtotime('2012-08-15')) / 86400 * 179;
+改为$baseNumber = 514898-179*15 + (strtotime($insertDate) - strtotime('2012-08-15')) / 86400 * 179;

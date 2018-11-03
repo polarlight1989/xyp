@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, "宋体",Arial, Helvetica, Verdana, Geneva,  sans-serif;
+}
+
+BODY {
+ margin-left: 14px
+}
+.margin14 {margin-left: 15px;}
+.topa {margin-top:9px;top:1px;}

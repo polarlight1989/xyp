@@ -1,0 +1,24 @@
+body{margin:0px;overflow:hidden; background:url(../images/bg.jpg);}
+img{border:none;}
+a{blr:expression(this.onFocus=this.blur()); border:none;}
+a:focus{ outline:0; }
+input:focus{ outline:0;}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 200px #fff inset;
+	color:#333;
+    }
+.clear{ clear:both;}
+.line{ width:100%;height:5px; background:#162400; border-bottom:1px solid #9bbf1f;padding:0; margin:0; float:left;}
+.box{ width:490px; margin:0 auto;}
+.box .top{ width:490px; height:253px; float:left; background:url(../images/login_top.jpg) no-repeat;}
+.box .boxBg{ width:317px; padding-left:173px; height:164px; float:left; background:url(../images/login_box.jpg) no-repeat; position:relative;}
+.box .boxBg ul{ width:317px; float:left; padding:0; margin:0;}
+.box .boxBg li{ width:205px; margin-top:14px; float:left; display:inline; padding:0;}
+.box .boxBg span{ width:100px; height:32px; float:left; position:absolute; top:101px; right:106px;z-index:999;}
+.box .boxBg .btn{ width:205px; height:28px;line-height:28px; border:0 none; float:left;font-size:16px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333; background:none;}
+.box .boxBg .w100{ width:105px;}
+.box .bottom{ width:490px; height:178px; float:left; background:url(../images/login_bottom.jpg) no-repeat; text-align:center;}
+.box .bottom .btn,.box .bottom .btn_m,.box .bottom .btn_o{ width:282px; height:37px;background:url(../images/login_btn.jpg) no-repeat; border:0 none; cursor:pointer;}
+.box .bottom .btn{ background-position:0 0;}
+.box .bottom .btn_m{ background-position:0 -37px;}
+.box .bottom .btn_o{ background-position:0 -74px;}

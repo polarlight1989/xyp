@@ -1,0 +1,56 @@
+@charset "utf-8";
+body {font-family:"Microsoft YaHei";padding:0; margin:0;}
+.clear{ clear:both;}
+a {blr:expression(this.onFocus=this.blur()); border:none;}
+a:focus{ outline:0;}
+input:focus{ outline:0;}
+img{ border:none; padding:0; margin:0;}
+ul{ list-style:none; padding:0; margin:0; display:inline;}
+.clear{ clear:both;}
+.red{ color:#ff0000;}
+.blue{color:#0066ff;}
+
+.top{height:50px; line-height:50px; background:#f7f7f7; border-bottom:1px solid #e5e5e5; padding-top:20px;}
+.top .box{ width:850px; margin:0 auto;}
+.logo{font-size:34px; float:left; color:#353535; background:#e5e5e5; padding:0 15px;-moz-border-radius:10px 10px 0 0;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;}
+.top .box .csBtn{ width:60px; height:30px; line-height:30px; text-align:center;float:right; background:#993333; color:#fff;}
+
+.title{ width:850px; margin:4% auto 20px auto; height:1px; border-bottom:1px solid #cdcdcd; position:relative;}
+.title .name{ width:150px; background:#fff; text-align:center;line-height:50px; position:absolute;top:-26px; left:350px; font-size:20px;}
+.listBox{ width:850px; margin:2% auto 0 auto;}
+.listBox li{ width:100px;  float:left; padding:0; margin:0 0 5px 20px; text-align:center;text-decoration:none; padding:0; display:inline;}
+.listBox li i{ width:100px; float:left; background:#f8e9e9; border-bottom:1px dashed #dabbbb;height:30px; line-height:30px; color:#333;font-style:normal;text-decoration:none; cursor:pointer;}
+.listBox li i:hover{ background:#edd6d6; border-bottom:1px dashed #b38282;color:#8d5252;}
+.listBox li b{ width:100px; height: 20px;float:left; color:#bc9595; font-size:12px;line-height:20px; font-weight:normal;}
+
+.listBox1{ width:850px; margin:2% auto 0 auto;}
+.listBox1 li{ width:100px;  float:left; padding:0; margin:0 0 5px 20px; text-align:center;text-decoration:none; padding:0; display:inline;}
+.listBox1 li i{ width:100px; float:left; background:#e2e7f5; border-bottom:1px dashed #b9c0d3;height:30px; line-height:30px; color:#333;font-style:normal;text-decoration:none; cursor:pointer;}
+.listBox1 li i:hover{ background:#d1d9ef; border-bottom:1px dashed #8896bd;color:#16307a;}
+.listBox1 li b{ width:100px; height: 20px;float:left; color:#8e94a9; font-size:12px;line-height:20px; font-weight:normal;}
+
+.soBox{ width:522px; margin:10% auto 0 auto;}
+.soBox .name{ float:left; width:130px; height:30px; text-align:center; line-height:30px; font-size:30px; background:#eaeaea; padding:10px;}
+.soBox .text{ width:350px;border:1px solid #dedede;height:28px; float:right;padding:10px;font-size:16px;}
+
+.btnBox{ width:160px;margin:2% auto;}
+.btnBox .btn{width:160px; height:40px; line-height:40px; text-align:center; border:none; background:#993333; font-size:16px; color:#fff; cursor:pointer;moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+
+.eCord_box{
+	width: 200px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 0px 0px 15px 0px;
+	background: #fff;
+	border: 1px solid #ccc;
+	-moz-box-shadow:0px 1px 4px 0px #bbb;-webkit-box-shadow:0px 1px 4px 0px #bbb;box-shadow:0px 1px 4px 0px #bbb;
+}
+
+.eCord_box p{
+	height: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	margin:0;
+	padding:0;
+}
+.hong{ color:#ce1717;}

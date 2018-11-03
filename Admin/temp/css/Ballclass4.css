@@ -1,0 +1,44 @@
+﻿.No_1,.No_2,.No_3,.No_4,.No_5,.No_6 {
+	BACKGROUND-IMAGE: url(../../../user/images/ball_4.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center;
+	text-indent: -9999px;
+}
+.No_sz1,.No_sz2,.No_sz3,.No_sz4,.No_sz5,.No_sz6 {
+	BACKGROUND-IMAGE: url(../../../user/images/ball_4.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center;
+	text-indent: -9999px;
+}
+.No_1 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.No_2 {
+	BACKGROUND-POSITION: 0px -27px
+}
+.No_3 {
+	BACKGROUND-POSITION: 0px -54px
+}
+.No_4 {
+	BACKGROUND-POSITION: 0px -81px
+}
+.No_5 {
+	BACKGROUND-POSITION: 0px -108px
+}
+.No_6 {
+	BACKGROUND-POSITION: 0px -135px
+}
+.No_sz1 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.No_sz2 {
+	BACKGROUND-POSITION: 0px -27px
+}
+.No_sz3 {
+	BACKGROUND-POSITION: 0px -54px
+}
+.No_sz4 {
+	BACKGROUND-POSITION: 0px -81px
+}
+.No_sz5 {
+	BACKGROUND-POSITION: 0px -108px
+}
+.No_sz6 {
+	BACKGROUND-POSITION: 0px -135px
+}

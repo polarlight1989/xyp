@@ -1,0 +1,615 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	_overflow-x: hidden;
+}
+body {
+	background: rgb(255, 255, 255); font: 12px/1.5 tahoma, arial, "ËÎÌå"; color: rgb(71, 71, 71); font-size-adjust: none; font-stretch: normal;
+}
+table {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+div {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+p {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+td {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+li {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+dd {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+a {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+span {
+	font: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+a {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	color: rgb(71, 71, 71); text-decoration: none; cursor: pointer;
+}
+a:hover {
+	color: rgb(255, 99, 41); text-decoration: none;
+}
+input {
+	
+}
+button {
+	
+}
+select {
+	
+}
+textarea {
+	
+}
+.c {
+	-ms-zoom: 1;
+}
+.c::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.l {
+	float: left;
+}
+.r {
+	float: right;
+}
+.fixed {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.dsn {
+	display: none;
+}
+.dsib {
+	display: inline-block;
+}
+.tac {
+	text-align: center;
+}
+.tal {
+	text-align: left;
+}
+.tar {
+	text-align: right;
+}
+.normal {
+	font-weight: normal;
+}
+.fwb {
+	font-weight: bold;
+}
+.por {
+	position: relative;
+}
+.poa {
+	position: absolute;
+}
+.vam {
+	vertical-align: middle;
+}
+.vat {
+	vertical-align: top;
+}
+.ti2 {
+	text-indent: 2em;
+}
+h1 {
+	padding: 16px 15px 7px 0px; color: rgb(255, 99, 41); font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px; font-weight: bold;
+}
+h2 {
+	padding: 13px 0px 7px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; font-weight: normal;
+}
+h2.health {
+	padding: 40px 0px; text-align: center; color: rgb(102, 102, 102); font-family: "Î¢ÈíÑÅºÚ"; font-size: 22px; font-weight: normal;
+}
+h2.health img {
+	vertical-align: -5px;
+}
+h4 {
+	font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px;
+}
+.contetBox {
+	margin: 0px auto; width: 980px;
+}
+.lh1-2 {
+	line-height: 1.2em;
+}
+.lh20 {
+	line-height: 20px;
+}
+.lh24 {
+	line-height: 24px;
+}
+.lh26 {
+	line-height: 26px;
+}
+.lh36 {
+	line-height: 36px !important;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f22 {
+	font-size: 22px;
+}
+.f24 {
+	font-size: 24px;
+}
+.f_ff6329 {
+	color: rgb(255, 99, 41);
+}
+.f_999 {
+	color: rgb(153, 153, 153);
+}
+.f_474747 {
+	color: rgb(71, 71, 71);
+}
+.f_666 {
+	color: rgb(102, 102, 102);
+}
+.p_10 {
+	padding: 10px;
+}
+.p_15 {
+	padding: 15px;
+}
+.p_20 {
+	padding: 20px;
+}
+.p_t10 {
+	padding-top: 10px;
+}
+.p_t15_b5 {
+	padding: 15px 0px 5px;
+}
+.p_lr6 {
+	padding: 0px 6px;
+}
+.p_l10 {
+	padding-left: 10px;
+}
+.p_l27 {
+	padding-left: 27px;
+}
+.p_tb10 {
+	padding: 10px 0px;
+}
+.p_t50 {
+	padding-top: 50px;
+}
+.p_r20 {
+	padding-right: 20px;
+}
+.p_lr10 {
+	padding: 0px 10px;
+}
+.p_t10_b20 {
+	padding: 10px 0px 20px;
+}
+.p_t35 {
+	padding-top: 35px;
+}
+.m_t3 {
+	margin-top: 3px;
+}
+.m_t5 {
+	margin-top: 5px;
+}
+.m_t6 {
+	margin-top: 6px;
+}
+.m_t8 {
+	margin-top: 8px;
+}
+.m_t10 {
+	margin-top: 10px;
+}
+.m_t12 {
+	margin-top: 12px;
+}
+.m_t13 {
+	margin-top: 13px;
+}
+.m_t15 {
+	margin-top: 15px;
+}
+.m_t18 {
+	margin-top: 18px;
+}
+.m_t20 {
+	margin-top: 20px;
+}
+.m_t25 {
+	margin-top: 25px;
+}
+.m_t30 {
+	margin-top: 30px;
+}
+.m_t40 {
+	margin-top: 40px;
+}
+.m_t50 {
+	margin-top: 50px;
+}
+.m_t16_r20 {
+	margin: 16px 0px 0px 20px;
+}
+.m_t20_lr30 {
+	margin: 20px 30px 0px;
+}
+.m_lr12 {
+	margin: 0px 12px;
+}
+.m_r2 {
+	margin-right: 2px;
+}
+.m_r5 {
+	margin-right: 5px;
+}
+.m_r10 {
+	margin-right: 10px;
+}
+.m_r20 {
+	margin-right: 20px;
+}
+.m_r30 {
+	margin-right: 30px;
+}
+.m_l10 {
+	margin-left: 10px;
+}
+.m_l20 {
+	margin-left: 20px;
+}
+.m_l30 {
+	margin-left: 30px;
+}
+.m_l40 {
+	margin-left: 40px !important;
+}
+.m_l412 {
+	margin-left: 412px;
+}
+.m_t21_l14 {
+	margin: 21px 0px 0px 14px;
+}
+.zi_1 {
+	z-index: 1;
+}
+.zi_2 {
+	z-index: 2;
+}
+.zi_3 {
+	z-index: 3;
+}
+.zi_4 {
+	z-index: 4;
+}
+.zi_5 {
+	z-index: 5;
+}
+.zi_6 {
+	z-index: 6;
+}
+.zi_7 {
+	z-index: 7;
+}
+.zi_8 {
+	z-index: 8;
+}
+.zi_9 {
+	z-index: 9;
+}
+.zi_10 {
+	z-index: 10;
+}
+.zi_100 {
+	z-index: 100;
+}
+.w_170 {
+	width: 170px;
+}
+.w_180 {
+	width: 180px;
+}
+.w_190 {
+	width: 190px;
+}
+.w_194 {
+	width: 194px;
+}
+.w_200 {
+	width: 200px;
+}
+.w_220 {
+	width: 220px;
+}
+.w_240 {
+	width: 240px;
+}
+.w_250 {
+	width: 250px;
+}
+.w_280 {
+	width: 280px;
+}
+.w_340 {
+	width: 340px;
+}
+.w_720 {
+	width: 720px;
+}
+.bb_t2_ddd {
+	border-top-color: rgb(221, 221, 221) !important; border-top-width: 2px !important; border-top-style: solid !important;
+}
+.bg_f5f5f5 {
+	background: rgb(245, 245, 245);
+}
+.header {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat; line-height: normal; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.public {
+	background: url("/app_images/newtoa/v20/public.gif") no-repeat; line-height: normal; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.icon {
+	background: url("/app_images/newtoa/v20/icon.gif") no-repeat; line-height: normal; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.repeat {
+	background: url("/app_images/newtoa/v20/icon_repeat.gif") repeat-x;
+}
+.list a {
+	background: url("/app_images/newtoa/v20/icon_list.gif") no-repeat;
+}
+.listPlus a {
+	background-position: 0px 5px; padding-left: 15px;
+}
+.listPlus a:hover {
+	background-position: 0px -95px; text-decoration: none;
+}
+.listDot li {
+	padding: 5px 0px;
+}
+.listDot a {
+	background-position: 0px -3213px; padding-left: 7px;
+}
+.listDot .time {
+	color: rgb(153, 153, 153);
+}
+.ano_0072ff {
+	color: rgb(0, 114, 255); text-decoration: none;
+}
+.aul_ff6329 {
+	color: rgb(255, 99, 41); text-decoration: underline;
+}
+.ano_ff6329 {
+	color: rgb(255, 99, 41); text-decoration: none;
+}
+.ano_ff6329:hover {
+	color: rgb(255, 99, 41); text-decoration: underline;
+}
+.step {
+	background: url("/app_images/newtoa/v20/icon_repeat.gif") repeat-x 0px -130px; margin-top: 15px;
+}
+.step li {
+	float: left; position: relative;
+}
+.step li.on {
+	background: rgb(104, 166, 144);
+}
+.step li.ok {
+	background: rgb(187, 220, 208);
+}
+.step li .text {
+	color: rgb(255, 255, 255); padding-top: 23px; padding-right: 35px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px; display: inline-block;
+}
+.step li .text1 {
+	color: rgb(255, 255, 255); letter-spacing: -1px; padding-top: 5px; padding-right: 35px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px; vertical-align: top; display: inline-block;
+}
+.step li.last .text {
+	padding-right: 0px;
+}
+.step li.last .text1 {
+	padding-right: 0px;
+}
+.step li .step1 {
+	width: 83px; height: 60px;
+}
+.step li .step2 {
+	width: 102px; height: 60px;
+}
+.step li .step3 {
+	width: 98px; height: 60px;
+}
+.step li .next {
+	top: 0px; width: 35px; height: 60px; right: 0px; position: absolute;
+}
+.step li .step1 {
+	background-position: -180px -120px;
+}
+.step li .step2 {
+	background-position: -270px -120px;
+}
+.step li .step3 {
+	background-position: -380px -120px;
+}
+.step li .next {
+	background-position: -180px -300px;
+}
+.step li.on .step1 {
+	background-position: -180px -180px;
+}
+.step li.on .step2 {
+	background-position: -270px -180px;
+}
+.step li.on .step3 {
+	background-position: -380px -180px;
+}
+.step li.on .next {
+	background-position: -215px -300px;
+}
+.step li.ok .step1 {
+	background-position: -180px -240px;
+}
+.step li.ok .step2 {
+	background-position: -270px -240px;
+}
+.step li.ok .step3 {
+	background-position: -380px -240px;
+}
+.step li.ok .next {
+	background-position: -250px -300px;
+}
+.step li.ok1.ok .next {
+	background-position: -285px -300px;
+}
+.step li.ok2.ok .next {
+	background-position: -285px -300px;
+}
+.sub_nav_bg {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 3px; border-bottom-style: solid; background-color: rgb(245, 245, 245);
+}
+ul#sub_nav {
+	margin: 0px auto; width: 980px; padding-top: 3px; font-size: 14px;
+}
+ul#sub_nav li {
+	border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(245, 245, 245) rgb(245, 245, 245) currentColor; border-image: none; float: left;
+}
+ul#sub_nav li a {
+	padding: 3px 13px 6px; text-align: center; line-height: 18px; display: inline-block; white-space: nowrap;
+}
+ul#sub_nav li a:hover {
+	text-decoration: none;
+}
+ul#sub_nav li a.on {
+	color: rgb(255, 99, 41); text-decoration: none;
+}
+ul#sub_nav li.hover {
+	background: rgb(255, 255, 255); border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(255, 99, 40) rgb(255, 99, 40) currentColor; border-image: none;
+}
+.sub_nav_table {
+	margin: 0px auto; width: 980px; padding-top: 3px;
+}
+table#sub_nav {
+	border: 0px currentColor; border-image: none; font-size: 14px; border-collapse: separate;
+}
+table#sub_nav td {
+	border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(245, 245, 245) rgb(245, 245, 245) currentColor; border-image: none; text-align: center;
+}
+table#sub_nav td a {
+	padding: 3px 5px 6px; text-align: center; line-height: 18px; display: inline-block; white-space: nowrap;
+}
+table#sub_nav td a:hover {
+	text-decoration: none;
+}
+table#sub_nav td a.on {
+	color: rgb(255, 99, 41); text-decoration: none;
+}
+table#sub_nav td.hover {
+	background: rgb(255, 255, 255); border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(255, 99, 40) rgb(255, 99, 40) currentColor; border-image: none;
+}
+.sub_down_box {
+	top: 0px; position: absolute; z-index: 8889;
+}
+ul.sub_down {
+	background: rgb(255, 255, 255); padding: 5px 0px 15px; border: 2px solid rgb(255, 99, 40); border-image: none; top: 0px; float: left; display: none; position: absolute; z-index: 9999;
+}
+ul.sub_down .lineFff {
+	background: rgb(255, 255, 255); top: -2px; height: 2px; line-height: normal; font-size: 0px; position: absolute;
+}
+ul.sub_down li {
+	background: rgb(255, 255, 255); padding: 2px 15px;
+}
+ul.sub_down li a {
+	background: rgb(255, 255, 255); white-space: nowrap;
+}
+ul.sub_down li a:hover {
+	text-decoration: none;
+}
+ul.sub_down li.line {
+	margin: 10px 15px; padding: 0px; font-size: 0px; vertical-align: top; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.language {
+	top: 75px; right: 0px; position: fixed; z-index: 50; _position: absolute;
+}
+.language .open {
+	background: url("/app_images/newtoa/v20/icon.gif") no-repeat; width: 20px; height: 60px; float: left; cursor: pointer;
+}
+.language .close {
+	background: url("/app_images/newtoa/v20/icon.gif") no-repeat; width: 20px; height: 60px; float: left; cursor: pointer;
+}
+.language .open {
+	background-position: -460px -50px;
+}
+.language .close {
+	background-position: -440px -50px;
+}
+.language .content {
+	border-top-color: rgb(255, 121, 71); border-bottom-color: rgb(255, 121, 71); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.language a {
+	background: rgb(255, 255, 255); padding: 0px 6px 0px 8px; height: 28px; color: rgb(255, 99, 41); line-height: 28px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 14px; display: block; white-space: nowrap;
+}
+.language a {
+	
+}
+.language a.index {
+	height: 27px; line-height: 27px; border-top-color: rgb(255, 188, 163); border-top-width: 1px; border-top-style: dashed;
+}
+.language a:hover {
+	background: rgb(255, 251, 242);
+}
+#footer {
+	padding: 14px 0px 15px; height: 70px; overflow: hidden; border-top-color: rgb(226, 221, 219); border-top-width: 2px; border-top-style: solid; background-color: rgb(239, 236, 235);
+}
+#footer .left {
+	margin: 0px 50px 0px 6px; width: 180px; _margin-left: 3px;
+}
+#footer .right {
+	width: 510px; text-align: center;
+}
+#footer #logo {
+	background-position: -800px 0px; width: 180px; height: 33px; margin-top: 4px; float: left; display: block;
+}
+#footer #tel {
+	background-position: -818px -160px; width: 132px; height: 19px; margin-top: 10px; float: left; display: block;
+}
+#footer .content {
+	margin: 0px auto; width: 980px; color: rgb(142, 140, 140);
+}
+#footer p.copy {
+	font-family: Arial;
+}
+#footer p {
+	line-height: 20px;
+}
+#footer p.icp {
+	color: rgb(103, 102, 102); padding-top: 5px;
+}
+#footer p.icp a {
+	color: rgb(103, 102, 102);
+}
+#footer img {
+	vertical-align: middle;
+}

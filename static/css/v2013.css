@@ -1,0 +1,6 @@
+﻿/*topMenu.php*/
+#But_Html #a_span{display:inline;float:left;height:45px;line-height:18px;margin-top:1px}
+#But_Html #a_span a{display:inline;float:left;margin-left:4px;padding:1px 2px;color:#FFFF00;text-decoration:none}
+#But_Html #a_span a:hover{background:url(/images/Admin/bg.gif) repeat-x}
+.but_1,.but_1_m{cursor:pointer}
+#On_User{position: relative; top: 2px;margin-left:40px;color:#FF0;font-weight:bold}

@@ -1,0 +1,353 @@
+@CHARSET "UTF-8";
+
+.lottery_info #lotteryName b{
+	color: #2836f4;
+}
+
+#drawTable table {
+	width: 935px;
+}
+
+#drawTable .page_info {
+	width: 933px;
+}
+
+#drawTable .other ,.other {
+	width: 22px;
+}
+
+.table_ball .name {
+	width: 27px;
+}
+
+.table_ball .odds {
+	width: 78px;
+}
+
+
+.table_ball .name span,.ballskl8 {
+	background: url("/user/images/ball_5.gif") no-repeat #ffffff;
+	width: 27px;
+	height: 27px;
+
+}
+
+.b01 {
+	background-position: 0 0;
+}
+
+.b02 {
+	background-position: 0 -27px;
+}
+
+.b03 {
+	background-position: 0 -54px;
+}
+
+.b04 {
+	background-position: 0 -81px;
+}
+
+.b05 {
+	background-position: 0 -108px;
+}
+
+.b06 {
+	background-position: 0 -135px;
+}
+
+.b07 {
+	background-position: 0 -162px;
+}
+
+.b08 {
+	background-position: 0 -189px;
+}
+
+.b09 {
+	background-position: 0 -216px;
+}
+
+.b10 {
+	background-position: 0 -243px;
+}
+
+.b11 {
+	background-position: 0 -270px;
+}
+
+.b12 {
+	background-position: 0 -297px;
+}
+
+.b13 {
+	background-position: 0 -324px;
+}
+
+.b14 {
+	background-position: 0 -351px;
+}
+
+.b15 {
+	background-position: 0 -378px;
+}
+
+.b16 {
+	background-position: 0 -405px;
+}
+
+.b17 {
+	background-position: 0 -432px;
+}
+
+.b18 {
+	background-position: 0 -459px;
+}
+
+.b19 {
+	background-position: 0 -486px;
+}
+
+.b20 {
+	background-position: 0 -513px;
+}
+
+.b21 {
+	background-position: 0 -540px;
+}
+
+.b22 {
+	background-position: 0 -567px;
+}
+
+.b23 {
+	background-position: 0 -594px;
+}
+
+.b24 {
+	background-position: 0 -621px;
+}
+
+.b25 {
+	background-position: 0 -648px;
+}
+
+.b26 {
+	background-position: 0 -675px;
+}
+
+.b27 {
+	background-position: 0 -702px;
+}
+
+.b28 {
+	background-position: 0 -729px;
+}
+
+.b29 {
+	background-position: 0 -756px;
+}
+
+.b30 {
+	background-position: 0 -783px;
+}
+
+.b31 {
+	background-position: 0 -810px;
+}
+
+.b32 {
+	background-position: 0 -837px;
+}
+
+.b33 {
+	background-position: 0 -864px;
+}
+
+.b34 {
+	background-position: 0 -891px;
+}
+
+.b35 {
+	background-position: 0 -918px;
+}
+
+.b36 {
+	background-position: 0 -945px;
+}
+
+.b37 {
+	background-position: 0 -972px;
+}
+
+.b38 {
+	background-position: 0 -999px;
+}
+
+.b39 {
+	background-position: 0 -1026px;
+}
+
+.b40 {
+	background-position: 0 -1053px;
+}
+
+.b41 {
+	background-position: 0 -1080px;
+}
+
+.b42 {
+	background-position: 0 -1107px;
+}
+
+.b43 {
+	background-position: 0 -1134px;
+}
+
+.b44 {
+	background-position: 0 -1161px;
+}
+
+.b45 {
+	background-position: 0 -1188px;
+}
+
+.b46 {
+	background-position: 0 -1215px;
+}
+
+.b47 {
+	background-position: 0 -1242px;
+}
+
+.b48 {
+	background-position: 0 -1269px;
+}
+
+.b49 {
+	background-position: 0 -1296px;
+}
+
+.b50 {
+	background-position: 0 -1323px;
+}
+
+.b51 {
+	background-position: 0 -1350px;
+}
+
+.b52 {
+	background-position: 0 -1377px;
+}
+
+.b53 {
+	background-position: 0 -1404px;
+}
+
+.b54 {
+	background-position: 0 -1431px;
+}
+
+.b55 {
+	background-position: 0 -1458px;
+}
+
+.b56 {
+	background-position: 0 -1485px;
+}
+
+.b57 {
+	background-position: 0 -1512px;
+}
+
+.b58 {
+	background-position: 0 -1539px;
+}
+
+.b59 {
+	background-position: 0 -1566px;
+}
+
+.b60 {
+	background-position: 0 -1593px;
+}
+
+.b61 {
+	background-position: 0 -1620px;
+}
+
+.b62 {
+	background-position: 0 -1647px;
+}
+
+.b63 {
+	background-position: 0 -1674px;
+}
+
+.b64 {
+	background-position: 0 -1701px;
+}
+
+.b65 {
+	background-position: 0 -1728px;
+}
+
+.b66 {
+	background-position: 0 -1755px;
+}
+
+.b67 {
+	background-position: 0 -1782px;
+}
+
+.b68 {
+	background-position: 0 -1809px;
+}
+
+.b69 {
+	background-position: 0 -1836px;
+}
+
+.b70 {
+	background-position: 0 -1863px;
+}
+
+.b71 {
+	background-position: 0 -1890px;
+}
+
+.b72 {
+	background-position: 0 -1917px;
+}
+
+.b73 {
+	background-position: 0 -1944px;
+}
+
+.b74 {
+	background-position: 0 -1971px;
+}
+
+.b75 {
+	background-position: 0 -1998px;
+}
+
+.b76 {
+	background-position: 0 -2025px;
+}
+
+.b77 {
+	background-position: 0 -2052px;
+}
+
+.b78 {
+	background-position: 0 -2079px;
+}
+
+.b79 {
+	background-position: 0 -2106px;
+}
+
+.b80 {
+	background-position: 0 -2133px;
+}

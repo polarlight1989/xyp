@@ -1,0 +1,350 @@
+﻿#header .top {
+	height: 25px; background-color: rgb(239, 236, 235);
+}
+.top_content {
+	margin: 0px auto; width: 980px;
+}
+.top_content ul {
+	padding: 3px 0px 4px; height: 18px; _padding: 3px 0 4px 0;
+}
+.top_content ul li {
+	margin: 0px 3px; float: left;
+}
+.top_content ul li.line {
+	background: rgb(204, 204, 204); margin: 0px 7px; width: 1px; height: 12px; line-height: normal; font-size: 0px; border-top-color: rgb(239, 236, 235); border-bottom-color: rgb(239, 236, 235); border-top-width: 2px; border-bottom-width: 4px; border-top-style: solid; border-bottom-style: solid; _border-top: 4px solid #efeceb; _border-bottom: 2px solid #efeceb;
+}
+.top_content a:hover {
+	color: rgb(255, 99, 41);
+}
+.icon_lock {
+	background-position: 0px 0px; width: 10px; height: 14px; margin-top: 1px;
+}
+.icon_avatar {
+	background-position: -15px 0px; width: 8px; height: 10px; margin-top: 5px; _margin-top: 5px;
+}
+.inforNub {
+	padding: 0px 2px; height: 15px; color: rgb(255, 255, 255); line-height: 15px; font-family: Arial; font-weight: bold; margin-top: 2px; vertical-align: top; display: inline-block; position: relative; cursor: pointer; background-color: rgb(255, 99, 41); _margin-top: 2px;
+}
+.inforNub:hover {
+	color: rgb(255, 255, 255) !important; text-decoration: none !important;
+}
+.inforNub .icon_l {
+	top: 0px; width: 2px; height: 15px; position: absolute;
+}
+.inforNub .icon_r {
+	top: 0px; width: 2px; height: 15px; position: absolute;
+}
+.inforNub .icon_l {
+	background-position: -25px 0px; left: -1px;
+}
+.inforNub .icon_r {
+	background-position: -28px 0px; right: -1px;
+}
+.infoPage {
+	background: rgb(255, 254, 238); margin: 1px 0px 0px 5px; height: 23px; line-height: 23px; padding-left: 10px; float: left; display: none;
+}
+.infoPage a {
+	margin-right: 10px; float: left;
+}
+.infoPage a.close {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat 0px -15px; margin: 0px; width: 24px; height: 23px; text-indent: -9999px; border-left-color: rgb(239, 236, 235); border-left-width: 1px; border-left-style: solid; float: left; display: block;
+}
+#header .content {width:auto;
+}
+#header .logo {
+	background-position: -100px 0px; width: 244px; height: 30px; text-indent: -9999px; margin-top: 8px; float: left; display: block;
+}
+.navOne {
+	margin-top: 19px; float: right;
+}
+.navOne li {
+	background: rgb(255, 255, 255); height: 26px; float: left;
+}
+.navOne li.line {
+	background: rgb(208, 208, 208); margin: 0px 20px; width: 1px; height: 14px; font-size: 0px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-bottom-width: 9px; border-top-style: solid; border-bottom-style: solid;
+}
+.navOne li a {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat; height: 20px; line-height: 20px; display: inline-block;
+}
+.navOne li a.toa {
+	background-position: -350px 0px; width: 90px;
+}
+.navOne li.on a.toa {
+	background-position: -350px -20px;
+}
+.navOne li a.toa:hover {
+	background-position: -350px -20px;
+}
+.navOne li a.bank {
+	background-position: -450px 0px; width: 48px; cursor: default;
+}
+.navOne li.on a.bank {
+	background-position: -450px -20px;
+}
+.navOne li a.bank:hover {
+	background-position: -450px -20px;
+}
+.navOne li.hover a.bank {
+	background-position: -450px -20px;
+}
+.navOne li a.insurance {
+	background-position: -500px 0px; width: 48px;
+}
+.navOne li.on a.insurance {
+	background-position: -500px -20px;
+}
+.navOne li a.insurance:hover {
+	background-position: -500px -20px;
+}
+.navOne li a.investment {
+	background-position: -550px 0px; width: 47px;
+}
+.navOne li.on a.investment {
+	background-position: -550px -20px;
+}
+.navOne li a.investment:hover {
+	background-position: -550px -20px;
+}
+.navOne li a.financial {
+	background-position: -600px 0px; width: 76px;
+}
+.navOne li.on a.financial {
+	background-position: -600px -20px;
+}
+.navOne li a.financial:hover {
+	background-position: -600px -20px;
+}
+.navOneDown {
+	background: rgb(255, 255, 255); left: -80px; width: 80px; position: absolute;
+}
+.navOneDown .navOneDownContent {
+	background: rgb(255, 255, 255); border-width: 0px 2px 2px; border-style: none solid solid; border-color: currentColor rgb(153, 153, 153) rgb(153, 153, 153); border-image: none; _width: 76px;
+}
+.navOneDown .iconArrowTop {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat -45px -2px; left: 50%; top: -20px; width: 48px; height: 28px; line-height: normal; font-size: 0px; margin-left: -24px; display: inline-block; position: absolute; z-index: 100;
+}
+.navOneDown .navOneDowntop {
+	background: rgb(255, 255, 255); height: 6px; font-size: 0px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.navOneDown a {
+	background: rgb(255, 255, 255); padding: 0px 14px; height: 30px; text-align: center; color: rgb(102, 102, 102); line-height: 30px; font-size: 12px; display: block; white-space: nowrap;
+}
+.navOneDown a:hover {
+	background: rgb(249, 249, 249); color: rgb(255, 99, 41);
+}
+.navTwo {
+	background: url("/app_images/newtoa/v20/header.gif") repeat-x 0px -40px; height: auto !important; min-height: 7px;
+}
+.null.navTwo {
+	line-height: normal; font-size: 0px;
+}
+.navTwoContent {
+	margin: 0px auto; width: 980px; height: 35px;
+}
+.navTwoContent li {
+	padding: 0px 15px; float: left; display: block;
+}
+.navTwoContent li.on {
+	background: rgb(215, 75, 24);
+}
+.navTwoContent li a {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat; height: 35px; text-indent: -9999px; display: block;
+}
+.navTwoContent li a:hover {
+	text-decoration: none;
+}
+.navTwoContent li a.bxsy {
+	background-position: 0px -80px; width: 68px;
+}
+.navTwoContent li.on a.bxsy {
+	background-position: 0px -120px;
+}
+.navTwoContent li a.grsx {
+	background-position: -80px -80px; width: 67px;
+}
+.navTwoContent li.on a.grsx {
+	background-position: -80px -120px;
+}
+.navTwoContent li a.ttsx {
+	background-position: -160px -80px; width: 67px;
+}
+.navTwoContent li.on a.ttsx {
+	background-position: -160px -120px;
+}
+.navTwoContent li a.ccbx {
+	background-position: -240px -80px; width: 68px;
+}
+.navTwoContent li.on a.ccbx {
+	background-position: -240px -120px;
+}
+.navTwoContent li a.jkbx {
+	background-position: -320px -80px; width: 68px;
+}
+.navTwoContent li.on a.jkbx {
+	background-position: -320px -120px;
+}
+.navTwoContent li a.qynj {
+	background-position: -400px -80px; width: 34px;
+}
+.navTwoContent li.on a.qynj {
+	background-position: -400px -120px;
+}
+.navTwoContent li a.wszx {
+	background-position: -480px -80px; width: 67px;
+}
+.navTwoContent li.on a.wszx {
+	background-position: -480px -120px;
+}
+.navTwoContent li a.grsy {
+	background-position: -560px -80px; width: 68px;
+}
+.navTwoContent li.on a.grsy {
+	background-position: -560px -120px;
+}
+.navTwoContent li a.qyzq {
+	background-position: -640px -80px; width: 68px;
+}
+.navTwoContent li.on a.qyzq {
+	background-position: -640px -120px;
+}
+.navTwoContent li.backOld {
+	margin: 0px; float: right;
+}
+.navTwoContent li a.backOld {
+	background-position: -830px -80px; margin: 0px; width: 150px;
+}
+.navTwoContent li.on a.backOld {
+	background-position: -830px -120px;
+}
+.navTwoContent a .icon_arrow_t {
+	background: none; display: none;
+}
+.navTwoContent li.on a .icon_arrow_t {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat -30px -20px; left: 50%; width: 8px; height: 5px; bottom: 0px; line-height: normal; font-size: 0px; margin-left: -4px; display: none; position: absolute; _bottom: -1px;
+}
+.navTwoContent li.tel {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat -970px -160px; margin: 0px; padding: 0px 0px 0px 15px; color: rgb(253, 221, 214); line-height: 35px; font-family: Verdana; font-weight: bold; float: right;
+}
+.navTwoContent li a.grwy {
+	background-position: 0px -160px; width: 68px;
+}
+.navTwoContent li.on a.grwy {
+	background-position: 0px -200px;
+}
+.navTwoContent li a.xyk {
+	background-position: -80px -160px; width: 50px;
+}
+.navTwoContent li.on a.xyk {
+	background-position: -80px -200px;
+}
+.navTwoContent li a.cxwy {
+	background-position: -140px -160px; width: 69px;
+}
+.navTwoContent li.on a.cxwy {
+	background-position: -140px -200px;
+}
+.navTwoContent li a.tzsy {
+	background-position: -230px -160px; width: 68px;
+}
+.navTwoContent li.on a.tzsy {
+	background-position: -230px -200px;
+}
+.navTwoContent li a.pazq {
+	background-position: -310px -160px; width: 68px;
+}
+.navTwoContent li.on a.pazq {
+	background-position: -310px -200px;
+}
+.navTwoContent li a.pajj {
+	background-position: -390px -160px; width: 68px;
+}
+.navTwoContent li.on a.pajj {
+	background-position: -390px -200px;
+}
+.navTwoContent li a.paxt {
+	background-position: -470px -160px; width: 69px;
+}
+.navTwoContent li.on a.paxt {
+	background-position: -470px -200px;
+}
+.navThree {
+	width: 100%; height: 32px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 3px; border-bottom-style: solid; background-color: rgb(245, 245, 245);
+}
+.navThreeContent {
+	margin: 0px auto; width: 980px; color: rgb(70, 70, 70); letter-spacing: -1px; padding-top: 7px; font-size: 12px;
+}
+.navThree a {
+	color: rgb(70, 70, 70);
+}
+.navThree span {
+	margin: 0px 1px;
+}
+.navThree a.on {
+	color: rgb(255, 99, 39);
+}
+.navThree a:hover {
+	color: rgb(255, 99, 39);
+}
+.importantNewsBox {
+	width: 660px; height: 20px; overflow: hidden; padding-right: 10px; float: left; position: relative;
+}
+.importantNewsBox .up {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat; width: 9px; height: 6px; right: 0px; line-height: normal; font-size: 0px; display: inline-block; position: absolute;
+}
+.importantNewsBox .down {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat; width: 9px; height: 6px; right: 0px; line-height: normal; font-size: 0px; display: inline-block; position: absolute;
+}
+.importantNewsBox .up {
+	background-position: -781px 0px; top: 3px;
+}
+.importantNewsBox .down {
+	background-position: -781px -7px; bottom: 3px;
+}
+.importantNewsBox .up:hover {
+	background-position: -772px 0px;
+}
+.importantNewsBox .down:hover {
+	background-position: -772px -7px; bottom: 3px;
+}
+.importantNews {
+	width: 660px; height: 20px; overflow: hidden; position: relative;
+}
+.importantNews li {
+	left: 0px; top: 20px; width: 660px; height: 20px; line-height: 20px; overflow: hidden; display: none; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis;
+}
+.importantNews li.on {
+	top: 0px; display: block;
+}
+.importantNews li a {
+	color: rgb(153, 153, 153);
+}
+.importantNews li a:hover {
+	color: rgb(255, 99, 41);
+}
+.loginTime {
+	width: 230px; height: 20px; line-height: 20px; padding-left: 10px; margin-left: 5px; border-left-color: rgb(225, 225, 225); border-left-width: 1px; border-left-style: solid; float: right; display: block;
+}
+.loginTime span {
+	font-family: Verdana;
+}
+.cxwy_poa {
+	left: 756px; top: 0px; width: 80px; position: absolute; z-index: 1;
+}
+.cxwy_poa .line {
+	background: rgb(235, 66, 28); width: 1px; height: 14px; font-size: 0px; margin-top: 10px; border-right-color: rgb(253, 127, 86); border-right-width: 1px; border-right-style: solid;
+}
+.navTwoContent .cxwy_poa .cxwy {
+	background: url("/app_images/newtoa/v20/header.gif") no-repeat -560px -158px; margin: 0px 12px; width: 50px; height: 35px; text-indent: -9999px; display: block; _display: inline;
+}
+.ano_777 {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.ano_777:hover {
+	color: rgb(255, 99, 41); text-decoration: none;
+}
+.navTwoContent li a.qynj {
+	background: url("/app_images/newtoa/v20/invest/header_new.png") no-repeat -15px 0px; width: 66px;
+}
+.navTwoContent li.on a.qynj {
+	background-position: -15px -35px;
+}
